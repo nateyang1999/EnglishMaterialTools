@@ -12,7 +12,7 @@ lookup.py 使用爬蟲批量查詢劍橋辭典、Yahoo辭典，輸出單詞中�
     * 一字一列
 ## 使用方式
 * 需先安裝python(3.8或以上) https://www.python.org/downloads/
-* 從github下載zip
+* 從github下載zip (右上角Code->Download Zip)
     * 或者(需先安裝git http://git-scm.com/download/win)  
     ```
     git clone https://github.com/nateyang1999/WordMaterialTools.git
