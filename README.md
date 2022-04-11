@@ -1,4 +1,4 @@
-# WordMaterialTools
+# EnglishMaterialTools
 ## 說明
 用於節省英文講義編輯時間的簡單python scripts。
 translate.py 使用googletrans套件，輸出例句翻譯。
