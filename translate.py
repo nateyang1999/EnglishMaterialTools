@@ -5,7 +5,7 @@ translator = googletrans.Translator()
 
 in_filename = sys.argv[1]
 out_filename = "out_"+in_filename
-f = open(in_filename,"r")
+f = open(in_filename,"r",encoding="utf-8")
 
 with open(out_filename, 'w', encoding='utf-8') as f_out:
     for sentence in f:
