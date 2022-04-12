@@ -22,6 +22,10 @@ lookup.py 使用爬蟲批量查詢劍橋辭典、Yahoo辭典，輸出單詞中�
     ```
     cd {你的檔案路徑(如:\github\WordMaterialTools)}
     ```
+    * 安裝pip
+    ```
+    python -m ensurepip --upgrade
+    ```
     * 安裝所需套件
     ```
     pip install --upgrade -r requirements.txt
