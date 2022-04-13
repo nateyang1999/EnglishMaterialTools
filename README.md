@@ -49,7 +49,7 @@ restore (v.) 修復；使重定；使復職 [rɪˋstor]
 * 打開終端機(windows左下角搜尋cmd)，依序輸入
     * 移動至檔案資料夾下
     ```
-    cd {你的檔案路徑(如:\github\WordMaterialTools)}
+    cd {你的檔案路徑(如:\github\EnglishMaterialTools)}
     ```
     * 安裝pip
     ```
