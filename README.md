@@ -47,13 +47,13 @@ restore (v.) 修復；使重定；使復職 [rɪˋstor]
     git clone https://github.com/nateyang1999/EnglishMaterialTools.git
     ```
 * 打開終端機(windows左下角搜尋cmd)，依序輸入
-    * 移動至檔案資料夾下
-    ```
-    cd {你的檔案路徑(如:\github\EnglishMaterialTools)}
-    ```
     * 安裝pip
     ```
     python -m ensurepip --upgrade
+    ```
+    * 移動至檔案資料夾下
+    ```
+    cd {你的檔案路徑(如:\github\EnglishMaterialTools)}
     ```
     * 安裝所需套件
     ```
