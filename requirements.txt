@@ -1,5 +1,5 @@
 beautifulsoup4==4.11.1
 fake_useragent==0.1.11
 googletrans==3.1.0a0
-matplotlib==3.3.3
+matplotlib==3.5.2
 requests==2.25.1
