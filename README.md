@@ -66,3 +66,45 @@ restore (v.) 修復；使重定；使復職 [rɪˋstor]
     ```
     python3 lookup.py {檔名(如:test.txt)}
     ```
+## macOS
+* 安裝pyhton(3.8以上)
+在終端機輸入
+```
+python3 --version
+```
+若出現 Python 3.X.X 表示安裝成功
+* 安裝pip
+```
+curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
+```
+```
+python3 get-pip.py
+```
+```
+pip3 list
+```
+出現Package和Version的列表代表安裝成功
+![](https://i.imgur.com/RsG8dNw.png)
+
+* 移動到檔案路徑(假設檔案在Downloads/EnglishMaterialTools-main)
+```
+cd Downloads/EnglishMaterialTools-main
+```
+* 安裝所需套件
+```
+pip3 install -r requirements.txt
+```
+```
+pip3 install googletrans==3.1.0a0
+```
+```
+pip3 install matplotlib==3.5.2
+```
+* 執行script (檔案需和 translate.py、lookup.py 放在同一個資料夾)。假設要翻譯的檔案為test_translate.txt
+```
+python3 translate.py test_translate.txt
+```
+* 假設要查詢的檔案為test_lookup.txt
+```
+python3 lookup.py test_lookup.txt
+```
