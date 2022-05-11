@@ -1,20 +1,22 @@
 from matplotlib.pyplot import getp
 import requests
 from bs4 import BeautifulSoup
-from urllib import request
+import requests
 from fake_useragent import UserAgent
 import time
 import sys
+import warnings
+warnings.filterwarnings("ignore")
 
 CAMBRIDGE_DICTIONARY_URL = "https://dictionary.cambridge.org/zht/%E8%A9%9E%E5%85%B8/%E8%8B%B1%E8%AA%9E-%E6%BC%A2%E8%AA%9E-%E7%B9%81%E9%AB%94/"
 YAHOO_DICTIONARY_URL = "https://tw.dictionary.yahoo.com/dictionary?p="
 
-ua = UserAgent()
+ua = UserAgent(verify_ssl=False)
 
 def getHTML(url):
     headers = {'User-Agent': ua.random }
-    req = request.Request(url, headers=headers)
-    return request.urlopen(req).read()
+    req = requests.get(url, headers=headers,verify=False)
+    return req.text
 
 def getPos(w):
     if w == "noun":
