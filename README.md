@@ -94,11 +94,11 @@ cd Downloads/EnglishMaterialTools-main
 ```
 pip3 install -r requirements.txt
 ```
-* 執行script (檔案需和 translate.py、lookup.py 放在同一個資料夾)。假設要翻譯的檔案為test_translate.txt
+* 執行script (檔案需和 translate.py、lookup.py 放在同一個資料夾)。假設要翻譯的檔案為demo_translate.txt
 ```
-python3 translate.py test_translate.txt
+python3 translate.py demo_translate.txt
 ```
-* 假設要查詢的檔案為test_lookup.txt
+* 假設要查詢的檔案為demo_lookup.txt
 ```
-python3 lookup.py test_lookup.txt
+python3 lookup.py demo_lookup.txt
 ```
