@@ -94,12 +94,6 @@ cd Downloads/EnglishMaterialTools-main
 ```
 pip3 install -r requirements.txt
 ```
-```
-pip3 install googletrans==3.1.0a0
-```
-```
-pip3 install matplotlib==3.5.2
-```
 * 執行script (檔案需和 translate.py、lookup.py 放在同一個資料夾)。假設要翻譯的檔案為test_translate.txt
 ```
 python3 translate.py test_translate.txt
